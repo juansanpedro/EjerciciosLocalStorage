@@ -7,3 +7,10 @@ buttonText.addEventListener("click", (evt) => {
 });
 
 // Escribe el código a continuación
+
+var acceder = localStorage.getItem("text");
+if(acceder===null){
+  window.alert("Por favor ingresa un texto")
+}else{
+ window.alert(acceder);
+}
