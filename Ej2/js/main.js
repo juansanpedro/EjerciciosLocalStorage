@@ -8,4 +8,4 @@ buttonText.addEventListener("click", (evt) => {
 
 // Escribe el código a continuación
 
-let acceder = localStorage.getItem("text");
+
